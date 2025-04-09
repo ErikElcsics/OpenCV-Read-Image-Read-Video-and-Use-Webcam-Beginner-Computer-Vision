@@ -14,8 +14,9 @@ Now let’s look at how to use OpenCV to:
 
 
 ## 🖼️ **Read Image**
+🔍 **Explanation**:  
+This section loads an image file and displays it in a window. Press any key to close the image window.
 
-python
 import cv2  # Import the OpenCV library
 
 # Load an image from a file using cv2.imread(). Make sure the path is correct.
@@ -28,14 +29,10 @@ cv2.imshow("This is my image", img)
 cv2.waitKey(0)
 
 
-🔍 **Explanation**:  
-This section loads an image file and displays it in a window. Press any key to close the image window.
-
-
-
 ## 🎞️ **Read Video**
+🔍 **Explanation**:  
+This section loads a video file and displays it frame by frame. It keeps looping until the video ends or you press **'q'** to quit.
 
-python
 import cv2  # Import OpenCV
 
 # Set the width and height you want to resize each video frame to
@@ -62,16 +59,10 @@ while True:
         break
 
 
-🔍 **Explanation**:  
-This section loads a video file and displays it frame by frame. It keeps looping until the video ends or you press **'q'** to quit.
-
-
-
 ## 🎥 **Read Webcam**
 🔍 **Explanation**:  
 This section accesses your computer’s webcam, captures video in real-time, and displays it. You can exit the video feed by pressing **'q'**.
 
-python
 import cv2  # Import OpenCV
 
 # Set desired frame width and height

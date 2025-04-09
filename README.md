@@ -68,6 +68,8 @@ This section loads a video file and displays it frame by frame. It keeps looping
 
 
 ## 🎥 **Read Webcam**
+🔍 **Explanation**:  
+This section accesses your computer’s webcam, captures video in real-time, and displays it. You can exit the video feed by pressing **'q'**.
 
 python
 import cv2  # Import OpenCV
@@ -96,7 +98,6 @@ while True:
         break
 
 
-🔍 **Explanation**:  
-This section accesses your computer’s webcam, captures video in real-time, and displays it. You can exit the video feed by pressing **'q'**.
+
 
 
